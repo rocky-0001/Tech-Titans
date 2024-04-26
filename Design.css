@@ -1,0 +1,86 @@
+.row{
+  display: flex;
+  margin-left: 120px;
+}
+.col{
+  flex:1;
+}
+.row1{
+  display: flex;
+  width: 99.5%;
+}
+.col1{
+  flex:1;
+}
+.footer{
+  width: 100%;
+}
+.custom-button {
+  background-color: #FFFFFF; /* none */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+  transition-duration: 0.4s; /* Smooth transition */
+}
+
+.custom-button:hover {
+  background-color: #45a049; /* Darker white on hover */
+}
+.row2{
+  margin-top: 800px; margin-right: 200px;
+}
+
+
+.navbar {
+  background-color: #FFFFFF;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  /Margin: 0 auto; sets the top and bottom margins to 0 and the left and right margins to auto. This centers the element horizontally within its containing element. This is commonly used for centering block-level elements like divs./
+  padding: 0 20px;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  /The CSS property list-style: none; is used to remove the default list item marker (such as bullets or numbers) from unordered and ordered lists./
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #030303;
+  text-decoration: none;
+}
+
+.nav-links li a:hover { 
+ /The CSS pseudo-class :hover is used to apply styles to an element when it is being hovered over by the mouse pointer./
+ color: #ff8c00;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
